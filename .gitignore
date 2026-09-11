@@ -1,0 +1,19 @@
+# Repo-wide ignores. Anything specific to one project belongs in that
+# project's own .gitignore - Arrows/.gitignore covers its run logs, its
+# debug images and the evidence the supervisor files away.
+
+# Virtualenvs - rebuild from the project's requirements.txt rather than
+# committing a couple of hundred megabytes of site-packages.
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

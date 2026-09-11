@@ -1,0 +1,13 @@
+# Screenshots and logs. Every one of these is regenerable evidence
+# about the board being looked at now, and this tree is inside
+# OneDrive, so anything rewritten every few seconds is queued for
+# upload again - point SUDOKU_DEBUG_DIR at scratch for a long run.
+*.png
+*.log
+*.xml
+
+# The digit templates, cut from the number pad on first run. Font
+# constants, not configuration: deleting this costs one fresh puzzle to
+# re-learn from.
+templates.npz
+__pycache__/
